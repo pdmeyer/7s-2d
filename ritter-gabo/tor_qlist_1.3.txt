@@ -1,0 +1,92 @@
+---------------------- 1;
+0 1;
+// cue 1. #1 red texture;
+sync 1;
+set 1 5 0.;
+vidpos 1 0.0;
+play 1 1;
+play 2 0;
+play 3 0;
+play 4 0;
+play 5 1;
+play 6 0;
+assign ramp1 infade;
+assign ramp2 gapgrain;
+assign lemurx modamt;
+assign lemury bfgspeed;
+assign fader xcutoff;
+bfg_basis fractal.fbm;
+
+---------------------- 2;
+0 2;
+// cue 2. fade in #5 plant-0;
+vidpos 5 60.0;
+ramp1 0. 0.6 1000;
+ramp1 0.6 0.05 7000;
+ramp1 0.05 0.05 4000;
+ramp1 0.1 1. 8000;
+
+---------------------- 3;
+0 3;
+// cue 3. fade in #2 agave ripple;
+play 1 0;
+play 2 1;
+set 2 5 1.;
+ramp1 1. 0. 10000;
+
+---------------------- 4;
+0 4;
+// cue 4. fade in #3 gold approach
+play 5 0;
+play 3 1;
+set 2 3 0.;
+vidpos 3 144.0;
+ramp1 0. 0.25 5000;
+ramp1 0.25 1. 8000;
+
+---------------------- 5;
+0 5; 
+// cue 5. fade in #4, gold-trails_4;
+play 2 0;
+play 4 1; 
+set 4 3 1.;
+ramp1 1. 0. 15000;
+
+---------------------- 6;
+0 6;
+// cue 6. stage #6 white-pencil;
+set 4 6 0.; 
+play 3 0;
+play 6 1;
+vidpos 6 60.;
+
+---------------------- 7;
+0 7;
+// cue 7. gold trails <> white pencil fades;
+ramp1 0. 0.3 100;
+ramp1 0.3 0. 3000;
+
+---------------------- 8;
+0 8;
+// cue 8. more gold trails <> white pencil fades;
+ramp1 0. 0.3 10000;
+ramp1 0.3 0. 7000;
+ramp1 0. 1. 6000;
+ramp1 1. 1. 6000;
+
+---------------------- 9;
+0 9;
+// cue 9. downsample 
+ramp2 0. 0.95 20;
+ramp2 0.95 0.95 8000;
+ramp2 0.95 0. 6000;
+
+---------------------- 10;
+0 10;
+// cue 10. flashes white on screen to signify start;
+sync 2;
+
+---------------------- 10;
+0 11;
+// cue 11. flashes white on screen to signify start;
+bfgbasis noise.cell;
