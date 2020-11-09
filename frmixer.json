@@ -1,0 +1,50 @@
+{
+	"pattrstorage" : 	{
+		"name" : "frmixer",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"iScl1" : [ 0.243 ],
+					"iOff1" : [ -0.173 ],
+					"oOff" : [ 0.21 ],
+					"oScl" : [ 0.973 ],
+					"dlyTime" : [ 7 ],
+					"fdbk" : [ 0.86 ],
+					"fboffs" : [ 0.04 ],
+					"gray" : [ 0.89 ],
+					"bpatcher::bfgBasis" : [ 1 ],
+					"bpatcher::bfgDistAmt" : [ 0.0 ],
+					"bpatcher::bfgInBasis" : [ 2 ],
+					"bpatcher::bfgOutBasis" : [ 4 ],
+					"bpatcher::bfgSpeed" : [ 1.9 ],
+					"bpatcher::bfgZoom" : [ 0.031 ],
+					"bpatcher::fractalGain" : [ 0.0 ],
+					"bpatcher::fractalH" : [ 0.0 ],
+					"bpatcher::fractalLacunarity" : [ 0.0 ],
+					"bpatcher::fractalOffset" : [ 0.0 ],
+					"bpatcher::vorCrack0" : [ 0.0 ],
+					"bpatcher::vorCrack1" : [ 0.0 ],
+					"bpatcher::vorCrack2" : [ 0.0 ],
+					"bpatcher::vorJitter" : [ 0.0 ],
+					"bpatcher::vorShading" : [ 0.0 ],
+					"bpatcher::vorSmooth" : [ 0.0 ],
+					"bpatcher::voronoise" : [ 0.0 ],
+					"bpatcher[1]::bfgModAmt" : [ 0.0 ],
+					"bpatcher[1]::horizCutoff" : [ 0.0 ],
+					"bpatcher[1]::horizEnable" : [ 1 ],
+					"bpatcher[1]::horizFalloff" : [ 0.0 ],
+					"bpatcher[1]::horizPos" : [ 0 ],
+					"bpatcher[1]::vertCutoff" : [ 0.5 ],
+					"bpatcher[1]::vertEnable" : [ 0 ],
+					"bpatcher[1]::vertFalloff" : [ 0.0 ],
+					"bpatcher[1]::vertPos" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
